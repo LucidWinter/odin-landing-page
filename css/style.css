@@ -25,6 +25,8 @@ h1{
     color: #f9faf8;
 }
 
+
+
 .heading{
     display: flex;
     flex-direction: column;
@@ -33,12 +35,13 @@ h1{
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .navbar,
 .showcase{
     background-color: #1f2937;
+    padding: 32px;
 }
 
 .logo{
@@ -60,7 +63,7 @@ h1{
 
 .showcase{
     display: flex;
-    justify-content: space-around;
-    padding: 32px;
+    justify-content: space-between;
+    flex: 1;
 }
 
