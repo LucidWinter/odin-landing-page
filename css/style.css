@@ -14,7 +14,7 @@ a{
 }
 
 a,
-p{
+.showcase p{
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -24,8 +24,6 @@ h1{
     font-weight: 900;
     color: #f9faf8;
 }
-
-
 
 .heading{
     display: flex;
@@ -67,3 +65,23 @@ h1{
     flex: 1;
 }
 
+.cards{
+    display: flex;
+    text-align: center;
+    gap: 16px;
+}
+
+.content-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-body{
+    height: 250px;
+    width: 250px;
+}
+
+.info{
+    font-size: 32px;
+}
