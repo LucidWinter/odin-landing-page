@@ -104,3 +104,35 @@ a,
     display: flex;
     justify-content: flex-end;
 }
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    margin: 32px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #e5e7eb;
+}
+
+.sign-up-body{
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.sign-up-heading{
+    margin-bottom: 0;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.btn-sign-up{
+    padding: 4px 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    color: #e5e7eb;
+}
