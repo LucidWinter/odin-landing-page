@@ -19,7 +19,7 @@ a,
     font-size: 18px;
 }
 
-h1{
+.showcase h1{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
@@ -84,4 +84,23 @@ h1{
 
 .info{
     font-size: 32px;
+}
+
+.content-quote{
+    background-color: #e5e7eb;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-quote p{
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.quote-user{
+    display: flex;
+    justify-content: flex-end;
 }
